@@ -7,4 +7,4 @@ Type the commad <> **`root `** in the terminal and open the root in the terminal
 ## Limitation
 I have enlisted  the weights and absessica for the case of ```Gaussain qaudrature rule``` for **N=10**. Therefore, it will not work beyond that. But integral of ``` the fixed interval size``` will work beyond this. 
 ## Reference 
-1. Chapter7 of the **Numerical Integration** can be found here [http://www.phy.ohio.edu/~elster/phys5071/extras/MHJ_Ch7_integration.pdf] (docs/CONTRIBUTING.md) . 
+1. Chapter7 of the **Numerical Integration** can be found here [http://www.phy.ohio.edu/~elster/phys5071/extras/MHJ_Ch7_integration.pdf](docs/CONTRIBUTING.md) . 
