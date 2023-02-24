@@ -1,4 +1,4 @@
-# week6 (Numerical Integration)
+# Week6 (Numerical Integration)
 This program should operate for two different types of the numerical integration: ``` the fixed interval size```  and the ```Gaussain qaudrature rule```. The output will also show the result I have obtained analytical integration.  
 
 ## How to Run the Program
