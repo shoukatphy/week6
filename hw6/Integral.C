@@ -39,7 +39,7 @@ for(int j=0; j<N; j++){
 }
 
 cout<<"The Gauss qaudrature result is: "<<gauss_Intg<<endl;
-cout<<"The analytical solution for the integ is: "<<"0.463647609"<<endl;
+cout<<"The analytical solution for the integ is: "<<"1.57079632679"<<endl;
 
 return 0;
 }
