@@ -1,7 +1,9 @@
 # Week6 (Numerical Integration) 
--**hw6**This program should operate for two different types of the numerical integration: ``` the fixed interval size```  and the ```Gaussain qaudrature rule```. The output will also show the result I have obtained analytical integration. 
+## hw6
+This program should operate for two different types of the numerical integration: ``` the fixed interval size```  and the ```Gaussain qaudrature rule```. The output will also show the result I have obtained analytical integration. 
 
--**hw7** the ```MCarloInteg.C``` will integrate the given function using ```Monte-Carlo Integration Method```. The number of iterations can be changed from the main function of the program. 
+## hw7
+the ```MCarloInteg.C``` will integrate the given function using ```Monte-Carlo Integration Method```. The number of iterations can be changed from the main function of the program. 
 
 ## How to Run the Program
 for both **hw6** and **hw7** The code can be run through *`ROOT`*. In case you don't have it in your system, you can install from here [https://root.cern/install/](docs/CONTRIBUTING.md). The root macro will ask you to pass three arguments. 
