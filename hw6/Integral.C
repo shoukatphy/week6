@@ -1,3 +1,7 @@
+/////////////////////////
+//Numerical Integration//
+//shoukat////////////////
+
 #include<iostream>
 using namespace std;
 
@@ -7,13 +11,8 @@ double getFunc(double x){
 return (1/(1+x*x));
 }
 
-//class for Gauss qaudrature method
-
-
-
-
-
-double Integral(double a, double b, int N){
+//main function. It will excute integral using equal steps and gauss qaudrature method
+int Integral(double a, double b, int N){
       
 	double val;
 double	step = (b-a)/N;//step size
@@ -27,10 +26,8 @@ double integ = fa+fb; //integ func
 
  }
 
-
 integ = integ *step/2;
 cout<<"Equal step size integral gives:  "<<integ<<endl;
-
 
 //for Guass leg method mesh points and weights for N=10 teken from numerical integr chp7;
 double msh[10] = {1.305, 6.747, 16.030, 28.330, 42.556, 57.444, 71.670, 83.970, 93.253, 98.695};
@@ -39,11 +36,10 @@ double gauss_Intg=0;
 for(int j=0; j<N; j++){
 
 	gauss_Intg += weight[j]*getFunc(msh[j]);
-
 }
 
 cout<<"The Gauss qaudrature result is: "<<gauss_Intg<<endl;
-cout<<"The analytical solution for the integ is: "<<"1.5707963268"<<endl;
+cout<<"The analytical solution for the integ is: "<<"0.463647609"<<endl;
 
 return 0;
 }
